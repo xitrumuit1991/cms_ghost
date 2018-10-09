@@ -1,0 +1,41 @@
+{
+  "url": "http://localhost:2368",
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "uiza-dev-db.uizadev.io",
+      "port": 6033,
+      "user": "uiza-dev",
+      "password": "uiza!@#!@#",
+      "database": "uiza_ghost_cms"
+    }
+  },
+  "paths": {
+    "contentPath": "content/"
+  },
+  "privacy": {
+    "useRpcPing": false,
+    "useUpdateCheck": true
+  },
+  "useMinFiles": false,
+  "caching": {
+    "theme": {
+      "maxAge": 0
+    },
+    "admin": {
+      "maxAge": 0
+    }
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "service": "smtp",
+      "auth": {
+        "user": "no-reply-dev@uiza.io",
+        "pass": "3z8kq@n*KON{"
+      }
+    }
+  }
+}
